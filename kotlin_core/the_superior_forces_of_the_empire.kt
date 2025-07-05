@@ -27,7 +27,5 @@ fun main() {
     println("What is the size of the Rebel Alliance's fleet? :")
     val rebelAlliance = scanner.nextLine().toInt()
 
-    val fleetDifference = galacticEmpire / rebelAlliance
-
-    println("The Galactic Empire's fleet is $fleetDifference times the Rebel Alliance's fleet")
+    println("The Galactic Empire's fleet is ${galacticEmpire / rebelAlliance} times the Rebel Alliance's fleet")
 }
