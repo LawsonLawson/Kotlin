@@ -33,8 +33,6 @@ fun main() {
     // Read the person's age
     val age = readLine()!!.toInt()
 
-    // Call the function with the age as argument
-
     // Print the result
     println(isLegal(age))
 }
