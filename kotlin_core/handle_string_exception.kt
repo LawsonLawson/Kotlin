@@ -1,3 +1,7 @@
+/**
+ * Here, we handle and exception without having to call the `Exception`
+ */
+
 fun main() {
     val index = readLine()!!.toInt()
     val word = readLine()!!
