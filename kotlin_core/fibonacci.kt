@@ -31,7 +31,6 @@ fun main(args: Array<String>) {
     var t2: Long = 1L
     var counter: Long = 0L
 
-    //print("$t1, $t2, ")
     // Write your "while" loop code here to complete the series
     while(counter < (n - 2)) {
         var valueToPrint: Long = t1 + t2
