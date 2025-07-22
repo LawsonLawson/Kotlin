@@ -24,7 +24,6 @@ fun findYears(depo: Double): Int{
     val interestRate = 1.071
     val max = 700000
     var years = 0
-    var interest: Double = 0.0
 
     do {
         deposit *= interestRate
