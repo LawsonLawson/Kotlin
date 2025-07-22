@@ -27,7 +27,7 @@ fun findYears(depo: Double): Int{
     var interest: Double = 0.0
 
     do {
-        deposit = deposit * 1.071
+        deposit *= interestRate
         years++
     } while (deposit < max)
     return years
