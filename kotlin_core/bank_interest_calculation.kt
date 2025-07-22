@@ -24,8 +24,17 @@ fun findYears(depo: Double): Int{
     val interestRate = 1.071
     val max = 700000
     var years = 0
-    //
-    // implement the while loop here
-    //
+    var interest: Double = 0.0
+
+    do {
+        deposit = deposit * 1.071
+        years++
+    } while (deposit < max)
     return years
 }
+
+fun main() {
+    val userInput: Double = readln().toDouble()
+    println(findYears(userInput))
+}
+
