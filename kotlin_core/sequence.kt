@@ -15,5 +15,20 @@
  * 1 2 2 3 3 3 4
  */
 fun main() {
-    // TODO
+    val userInput = readln().toInt()
+    var counter = 1
+    var number = 1
+    var printed = 1
+
+    while (printed <= userInput) {
+        repeat(counter) {
+            if (printed <= userInput) {
+                print("$number ")
+                printed++
+            }
+        }
+        counter++
+        number++
+    }
+    println()
 }
